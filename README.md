@@ -21,7 +21,7 @@ pip install selenium
 pip install pillow
 ```
 
-Download and install the Chrome WebDriver from https://chromedriver.chromium.org/downloads. 
+Download and install the Chrome WebDriver from https://googlechromelabs.github.io/chrome-for-testing/. 
 
 Make sure to download the version that matches the version of Chrome installed on your system, or you won't be able to run the script. If you don't, you'll get an error that looks something like:
 
@@ -32,7 +32,7 @@ Current browser version is 120.0.6099.109 with binary path /Applications/Google 
 
 This message means that the ChromeDriver version you downloaded only supports Chrome version 118, but you have Chrome version 120 installed.
 
-2. Set the path to the Chrome WebDriver executable in the `service` variable.
+1. Set the path to the Chrome WebDriver executable in the `service` variable.
 
 For example:
 

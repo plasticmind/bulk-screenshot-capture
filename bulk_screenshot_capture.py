@@ -11,7 +11,7 @@ from urllib.parse import quote
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Runs Chrome in headless mode.
-service = Service(executable_path='../../chromedriver/mac-118.0.5993.70/chromedriver-mac-x64/chromedriver')
+service = Service(executable_path='../../chromedriver/mac-120.0.6099.71/chromedriver')
 driver = webdriver.Chrome(service=service, options=chrome_options)
 crop_height = 600  # Height in pixels to crop the screenshot
 

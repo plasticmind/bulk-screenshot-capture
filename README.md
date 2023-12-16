@@ -67,9 +67,3 @@ The script will read the CSV file, visit each URL, capture a screenshot, and sav
 ## Issues
 
 If you encounter any issues, please [report them here](https://github.com/plasticmind/bulk-screenshot-capture/issues).
-
-## License
-
-(c) 2023 [Jesse Gardner](https://plasticmind.com/)
-
-This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0).

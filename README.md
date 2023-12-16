@@ -14,7 +14,7 @@ The script saves the screenshots as PNG files in a specified folder.The screensh
 
 ## Usage
 
-1. Install the required dependencies.
+### Install the required dependencies.
 
 ```
 pip install selenium
@@ -32,7 +32,7 @@ Current browser version is 120.0.6099.109 with binary path /Applications/Google 
 
 This message means that the ChromeDriver version you downloaded only supports Chrome version 118, but you have Chrome version 120 installed.
 
-1. Set the path to the Chrome WebDriver executable in the `service` variable.
+### Set the path to the Chrome WebDriver executable in the `service` variable.
 
 For example:
 
@@ -42,15 +42,15 @@ service = webdriver.Chrome('../../chromedriver/mac-118.0.5993.70/chromedriver-ma
 
 In this example, the 118.x Chrome WebDriver executable for the Mac (ARM) is located in the `../../` which is two directories up from the current directory. Adjust the path to match the location of the relevant Chrome WebDriver executable for your system and browser.
 
-3. Update the CSV with the URLs you want to capture. 
+### Update the CSV with the URLs you want to capture. 
    
 Each row in the CSV file should contain a single URL.
 
-4. Set the folder path where the screenshots should be saved in the `folder_path` variable. (Optional)
+### Set the folder path where the screenshots should be saved in the `folder_path` variable. (Optional)
 
 This is set to `screenshots` by default. You can leave it as is, or change it to a different folder path.
 
-5. Run the script.
+### Run the script.
 
 Run the script using the following command:
 
